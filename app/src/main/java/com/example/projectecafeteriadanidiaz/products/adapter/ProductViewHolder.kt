@@ -18,6 +18,6 @@ class ProductViewHolder(view: View): ViewHolder(view) {
     fun render(productModel:Product){
         productName.text=productModel.name
         productDesc.text=productModel.desc
-
+        productPrice.text = String.format("%.2f€", productModel.price)
     }
 }

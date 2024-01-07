@@ -1,6 +1,5 @@
 package com.example.projectecafeteriadanidiaz.products
 
-import android.provider.ContactsContract.DisplayPhoto
 
 data class Product(
     val name: String,

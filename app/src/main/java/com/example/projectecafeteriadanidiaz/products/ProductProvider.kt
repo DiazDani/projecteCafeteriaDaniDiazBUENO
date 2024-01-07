@@ -2,6 +2,14 @@ package com.example.projectecafeteriadanidiaz.products
 
 class ProductProvider {
     companion object{
+
+        fun getBegudaProducts(): List<Product> {
+            return products.filter { it.type.equals("beguda", ignoreCase = true) }
+        }
+
+        fun getMenjarProducts(): List<Product> {
+            return products.filter { it.type.equals("menjar", ignoreCase = true) }
+        }
         val products = listOf(
             Product(
                 name = "Cafè Americà",
