@@ -27,4 +27,6 @@ class HomeActivity : AppCompatActivity() {
 
         setupWithNavController(bottomNavigationView, navController)
     }
+
+
 }
