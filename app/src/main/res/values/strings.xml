@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">projecteCafeteriaDaniDiaz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">hello blank fragment</string>
+    <string name="cafeteria_login">CAFETERIA - INICI DE SESSIÒ</string>
+    <string name="cafeteria_registre">CAFETERIA - REGISTRE D\'USUARI</string>
+    <string name="enter">Enter</string>
+    <string name="registrar">Registrar</string>
+    <string name="un_nou_usuari">Un nou usuari?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="Mail">Mail</string>
+    <string name="Contrasenya">Contrasenya</string>
+</resources>

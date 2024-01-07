@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/pagarFragment">
+
+    <fragment
+        android:id="@+id/begudaFragment"
+        android:name="com.example.projectecafeteriadanidiaz.BegudaFragment"
+        android:label="fragment_beguda"
+        tools:layout="@layout/fragment_beguda" />
+    <fragment
+        android:id="@+id/menjarFragment"
+        android:name="com.example.projectecafeteriadanidiaz.MenjarFragment"
+        android:label="fragment_menjar"
+        tools:layout="@layout/fragment_menjar" />
+    <fragment
+        android:id="@+id/pagarFragment"
+        android:name="com.example.projectecafeteriadanidiaz.PagarFragment"
+        android:label="fragment_pagar"
+        tools:layout="@layout/fragment_pagar" />
+</navigation>
