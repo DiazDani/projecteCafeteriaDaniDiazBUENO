@@ -15,7 +15,7 @@ class ProductProvider {
                 name = "Cafè Americà",
                 desc = "Desperta els teus sentits amb el nostre cafè fort.",
                 type = "beguda",
-                price = 2.50F,
+                price = 2000.50F,
                 photo = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNqn_NKNCSJQgqw0GQa7c6obvnjFsFvzNyeKA7SzNB5tWXFyRxzSflDG1BeA6HgvBoanM&usqp=CAU"
             ),
             Product(
