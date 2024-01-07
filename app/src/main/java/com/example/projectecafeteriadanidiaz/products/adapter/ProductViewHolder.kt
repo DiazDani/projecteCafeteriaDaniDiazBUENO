@@ -4,6 +4,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.bumptech.glide.Glide
 import com.example.projectecafeteriadanidiaz.R
 
 import com.example.projectecafeteriadanidiaz.products.Product
@@ -19,5 +20,6 @@ class ProductViewHolder(view: View): ViewHolder(view) {
         productName.text=productModel.name
         productDesc.text=productModel.desc
         productPrice.text = String.format("%.2f€", productModel.price)
+        Glide.with(productPhoto.context).load(productModel.photo).into(productPhoto)
     }
 }
